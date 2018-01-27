@@ -1,0 +1,30 @@
+@mixin fuentestamañocolor{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px; 
+    color:$coloresdeFuentesHome;
+}
+
+
+/**************************************
+HOME--navegation @andresshare
+****************************************/
+.cajaHome{
+    @include fuentestamañocolor;
+    background-image: url("https://static.pexels.com/photos/265626/pexels-photo-265626.jpeg");
+    height: 550px;
+}
+.tituloCentral{
+    @include fuentestamañocolor;
+    height:50px;
+    padding-top: 0.8%;
+}
+.tituloFrase{
+    @include fuentestamañocolor;
+    height:30px;
+    margin-top: -3%;
+
+}
+.cajaTexto{
+    background:$contenedorMensajeHome;
+}
+/*FIN-home*/

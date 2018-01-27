@@ -1,0 +1,15 @@
+
+/**************************************
+Service @andresshare
+***************************************/
+.card-header {
+    background-color:$bg_colorCardheadersenService;
+    border-bottom: 0px  $border_colorCardheadersenService;
+    
+    }
+    
+    .card-header:first-child {
+        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    
+      }
+/*END-service */
